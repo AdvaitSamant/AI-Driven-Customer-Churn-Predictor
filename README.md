@@ -37,19 +37,25 @@ This project is a full-stack **AI-powered churn prediction and retention tool** 
 ```bash
 git clone https://github.com/your-username/churn-predictor.git
 cd churn-predictor
-2. Install dependencies
-bash
-Copy code
+```
+
+### 2. Install dependencies
+```bash
 pip install -r requirements.txt
-3. Train the Model
-bash
-Copy code
+```
+
+### 3. Train the Model
+```bash
 python train_model.py
-4. Run Dashboard
-bash
-Copy code
+```
+
+### 4. Run Dashboard
+```bash
 python app_dash.py
-5. Upload Your Dataset
+```
+
+### 5. Upload Your Dataset
+
 Upload your customer CSV in the dashboard
 
 Select a row to predict churn
@@ -58,13 +64,12 @@ View churn probability, SHAP feature importance, and AI retention strategy
 
 Dataset
 The app expects a CSV file with the following columns:
-
-pgsql
-Copy code
+```bash
 RowNumber, CustomerId, Surname, CreditScore, Geography, Gender, Age, Tenure, Balance, 
 NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary, Exited, Complain, 
 Satisfaction Score, Card Type, Point Earned
 Exited: Target column (1=churned, 0=active)
+```
 
 How It Works
 ML Model: Random Forest predicts customer churn.
