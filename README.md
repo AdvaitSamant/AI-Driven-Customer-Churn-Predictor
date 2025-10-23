@@ -68,26 +68,28 @@ The app expects a CSV file with the following columns:
 RowNumber, CustomerId, Surname, CreditScore, Geography, Gender, Age, Tenure, Balance, 
 NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary, Exited, Complain, 
 Satisfaction Score, Card Type, Point Earned
-Exited: Target column (1=churned, 0=active)
 ```
+Exited: Target column (1=churned, 0=active)
 
-How It Works
-ML Model: Random Forest predicts customer churn.
+### How It Works: 
 
-Feature Scaling & Encoding: Categorical features are label encoded and numerical features scaled.
+1. ML Model: Random Forest predicts customer churn.
 
-SHAP Explainability: Visualizes feature contributions per customer prediction.
+2. Feature Scaling & Encoding: Categorical features are label encoded and numerical features scaled.
 
-AI Retention: GPT-3 generates personalized strategies for high-risk customers.
+3. SHAP Explainability: Visualizes feature contributions per customer prediction.
 
-Dash Dashboard: Interactive, professional interface for analysts and decision-makers.
+4. AI Retention: GPT-3 generates personalized strategies for high-risk customers.
 
-Why It Stands Out
-Combines predictive modeling + explainable AI + AI-generated business recommendations.
+5. Dash Dashboard: Interactive, professional interface for analysts and decision-makers.
 
-Professional, interactive dashboard for real-time decision-making.
+Why It Stands Out: 
 
-End-to-end workflow for business analysts + AI integration.
+1. Combines predictive modeling + explainable AI + AI-generated business recommendations.
+
+2. Professional, interactive dashboard for real-time decision-making.
+
+3. End-to-end workflow for business analysts + AI integration.
 
 License
 This project is licensed under the MIT License
